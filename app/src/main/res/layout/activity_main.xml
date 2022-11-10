@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#646464"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:cardCornerRadius="25dp"
+        android:layout_marginStart="15dp"
+        app:cardBackgroundColor="#FFFFFF"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="50dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dlocker"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"/>
+
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="312dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="35dp"
+            android:background="@drawable/btn_storage"
+
+            android:inputType="text"
+            android:paddingTop="8dp"
+            android:text="LogIn"
+            android:textAlignment="center"
+            android:textColor="#130A0A"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/signup"
+            android:layout_width="312dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginEnd="35dp"
+            android:background="@drawable/btn_storage"
+            android:inputType="text"
+            android:paddingTop="8dp"
+            android:paddingBottom="5dp"
+            android:text="SignUp"
+            android:textAlignment="center"
+            android:textColor="#130A0A"
+            android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/scan_QR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scan OR code for Verification"
+        android:textAlignment="center"
+        android:layout_marginTop="310dp"
+        android:textSize="15sp"
+        android:textColor="#130A0A"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A Digital India initiative"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:textSize="15sp"
+        android:textColor="#130A0A"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inspired by - "
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:textColor="#130A0A"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Government of India"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:textColor="#130A0A"/>
+
+
+
+
+
+
+
+</LinearLayout>

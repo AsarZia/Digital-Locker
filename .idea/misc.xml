@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Projects/Locker/app/src/main/res/layout/activity_camera__gallery.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Projects/Locker/app/src/main/res/layout/activity_code_scanner.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Projects/Locker/app/src/main/res/layout/activity_contact__us.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Projects/Locker/app/src/main/res/layout/activity_custom_popup.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Projects/Locker/app/src/main/res/layout/activity_dashboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Projects/Locker/app/src/main/res/layout/activity_forgot_password.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Projects/Locker/app/src/main/res/layout/activity_gallery__images.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Projects/Locker/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Projects/Locker/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Projects/Locker/app/src/main/res/layout/activity_need_help.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Projects/Locker/app/src/main/res/layout/activity_new__register.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Projects/Locker/app/src/main/res/layout/activity_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Projects/Locker/app/src/main/res/layout/activity_scan_code.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Projects/Locker/app/src/main/res/layout/activity_settings.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Projects/Locker/app/src/main/res/layout/activity_sign_up.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Projects/Locker/app/src/main/res/layout/activity_splash_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Projects/Locker/app/src/main/res/layout/activity_update_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Projects/Locker/app/src/main/res/layout/activity_view__p_d_f__file.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Projects/Locker/app/src/main/res/layout/app_bar_dashboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Projects/Locker/app/src/main/res/layout/content_dashboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Projects/Locker/app/src/main/res/layout/fragment_dash1.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Projects/Locker/app/src/main/res/layout/fragment_dash2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Projects/Locker/app/src/main/res/layout/fragment_dash3.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Projects/Locker/app/src/main/res/layout/nav_header_dashboard.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

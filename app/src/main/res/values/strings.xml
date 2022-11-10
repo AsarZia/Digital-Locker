@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Locker</string>
+    <string name="number">Please provide a mobile number to
+        Sign up for a Digital Locker account</string>
+    <string name="A">Every time I am entering username and password, it gives an error "Invalid Username or Password. Try again".</string>
+    <string name="B">I have forgotten my username. Please tell me how can I retrieve it?</string>
+    <string name="C">I have forgotten my password. Please tell me how can i retrieve it?</string>
+    <string name="D">While signing up, I am getting an error message "The mobile number is already registered".Next
+    when i tried to retrieve the Username or password, it is giving me an error"This account is not active".</string>
+    <string name="E">How can i change my username in DigiLocker</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Asar zia</string>
+    <string name="nav_header_subtitle">asarzia20@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share link</string>
+    <string name="menu_send">Send</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="uploads">upload</string>
+    <string name="view">View PDF File</string>
+
+    <string name="Edit">Change your name, description and profile photo</string>
+    <string name="Notify">Define what alerts and notification you want to see </string>
+    <string name="Connected">Facebook, Twitter and Instagram permissions</string>
+    <string name="Privacy">Hide your profile from search engines</string>
+    <string name="Account">Change your email/password or delete your account</string>
+    <string name="locker">Digital locker is a platform for assurance and verification of Documents
+                          and Certificates in an digital way.Thus, eliminating the use of physical Documents.</string>
+    <string name="advantage1">With the help of digilocker, citizens can access their digital documents at any time, and anywhere.</string>
+    <string name="advantage2">These e-documents are more secure and protected than physical documents.</string>
+    <string name="advantage3">It saves time and is more convenient than other methods.</string>
+</resources>

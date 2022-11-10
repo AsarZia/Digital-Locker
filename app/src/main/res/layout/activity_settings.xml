@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Settings">
+
+    <TextView
+        android:id="@+id/icon_back"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:background="@drawable/ic_back"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#161414"
+        android:layout_marginTop="3dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"/>
+
+    <TextView
+        android:id="@+id/profile_edit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:textColor="#000000"
+        android:text="Edit profile"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/profile_edit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Edit"
+        android:textSize="12sp"
+        android:textColor="#000000"
+        android:layout_marginStart="15dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#161414"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"/>
+
+
+    <TextView
+        android:id="@+id/notify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:textColor="#000000"
+        android:text="Notification settings"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Notify"
+        android:textSize="12sp"
+        android:textColor="#000000"
+        android:layout_marginStart="15dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#161414"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:textColor="#000000"
+        android:text="Connected Accounts"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Connected"
+        android:textSize="12sp"
+        android:textColor="#000000"
+        android:layout_marginStart="15dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="10dp"
+        android:background="#161414"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:textColor="#000000"
+        android:text="privacy"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Privacy"
+        android:textSize="12sp"
+        android:textColor="#000000"
+        android:layout_marginStart="15dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="10dp"
+        android:background="#161414"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"/>
+
+    <TextView
+        android:id="@+id/account_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:textColor="#000000"
+        android:text="Account settings"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Account"
+        android:textSize="12sp"
+        android:textColor="#000000"
+        android:layout_marginStart="15dp"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#161414"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"/>
+
+
+
+
+
+
+</LinearLayout>

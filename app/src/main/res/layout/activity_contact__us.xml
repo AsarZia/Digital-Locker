@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Contact_Us">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:background="#113849"
+        android:src="@drawable/contacts"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IF ANY QUERY REGARDING APP."
+        android:textColor="#000000"
+        android:textSize="@dimen/_15ssp"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONTACT US !!"
+        android:textColor="#000000"
+        android:textSize="@dimen/_13ssp"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_250sdp"
+        android:layout_marginTop="@dimen/_10sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:textColor="#000000"
+                android:text="Personal Details !! "
+                android:textSize="@dimen/_15ssp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:background="#161414"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_190sdp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:textColor="#000000"
+                android:text="Name :"
+                android:textSize="@dimen/_12ssp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_80sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_marginTop="-18dp"
+                android:textColor="#000000"
+                android:gravity="start"
+                android:text="Asar Zia"
+                android:textSize="@dimen/_10ssp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:textColor="#000000"
+                android:text="Mobile :"
+                android:textSize="@dimen/_12ssp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_80sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_marginTop="-18dp"
+                android:textColor="#000000"
+                android:gravity="start"
+                android:text="8953618531"
+                android:textSize="@dimen/_10ssp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:textColor="#000000"
+                android:text="E-mail :"
+                android:textSize="@dimen/_12ssp"/>
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_80sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_marginTop="-18dp"
+                android:textIsSelectable="true"
+                android:textColor="#0000FF"
+                android:gravity="start"
+                android:text="asarzia20@gmail.com"
+                android:textSize="@dimen/_12ssp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#161414"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:textColor="#000000"
+                android:text="Name :"
+                android:textSize="@dimen/_12ssp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_80sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_marginTop="-18dp"
+                android:textColor="#000000"
+                android:gravity="start"
+                android:text="Ankit gupta"
+                android:textSize="@dimen/_10ssp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:textColor="#000000"
+                android:text="Mobile :"
+                android:textSize="@dimen/_12ssp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_80sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_marginTop="-18dp"
+                android:textColor="#000000"
+                android:gravity="start"
+                android:text="9565062027"
+                android:textSize="@dimen/_10ssp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:textColor="#000000"
+                android:text="E-mail :"
+                android:textSize="@dimen/_12ssp"/>
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_80sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_marginTop="-18dp"
+                android:textIsSelectable="true"
+                android:textColor="#0000FF"
+                android:gravity="start"
+                android:text="ankitgupta15.ac.in"
+                android:textSize="@dimen/_12ssp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#161414"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:textColor="#000000"
+                android:text="Name :"
+                android:textSize="@dimen/_12ssp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_80sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_marginTop="-18dp"
+                android:textColor="#000000"
+                android:gravity="start"
+                android:text="Mohd. Nizamuddin"
+                android:textSize="@dimen/_10ssp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:textColor="#000000"
+                android:text="Mobile :"
+                android:textSize="@dimen/_12ssp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_80sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_marginTop="-18dp"
+                android:textColor="#000000"
+                android:gravity="start"
+                android:text="9532383692"
+                android:textSize="@dimen/_10ssp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:textColor="#000000"
+                android:text="E-mail :"
+                android:textSize="@dimen/_12ssp"/>
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_80sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_marginTop="-18dp"
+                android:textIsSelectable="true"
+                android:textColor="#0000FF"
+                android:gravity="start"
+                android:text="mohd80@gmail.com."
+                android:textSize="@dimen/_12ssp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#161414"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:textColor="#000000"
+                android:text="Name :"
+                android:textSize="@dimen/_12ssp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_80sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_marginTop="-18dp"
+                android:textColor="#000000"
+                android:gravity="start"
+                android:text="Jaiprakash"
+                android:textSize="@dimen/_10ssp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:textColor="#000000"
+                android:text="Mobile :"
+                android:textSize="@dimen/_12ssp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_80sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_marginTop="-18dp"
+                android:textColor="#000000"
+                android:gravity="start"
+                android:text="8853714619"
+                android:textSize="@dimen/_10ssp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:textColor="#000000"
+                android:text="E-mail :"
+                android:textSize="@dimen/_12ssp"/>
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_80sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_marginTop="-18dp"
+                android:textIsSelectable="true"
+                android:textColor="#0000FF"
+                android:gravity="start"
+                android:text="bit16cs20@bit.ac.in"
+                android:textSize="@dimen/_12ssp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#161414"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:background="@drawable/btn_storage"
+        android:text="send mail"/>
+
+</LinearLayout>

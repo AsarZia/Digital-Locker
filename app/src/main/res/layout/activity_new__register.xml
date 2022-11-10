@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D7B49AC6"
+    tools:context=".New_Register">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        app:cardCornerRadius="25dp"
+        android:layout_marginStart="15dp"
+        app:cardBackgroundColor="#FFFFFF"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="25dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:src="@drawable/register"
+            android:layout_marginTop="5dp"/>
+
+      <!--  <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:textColorHint="#130A0A"
+            app:errorEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="25"
+                android:hint="Name"
+                android:imeOptions="actionNext"
+                android:textColor="#130A0A"
+                android:inputType="text"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:textSize="15sp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>-->
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:textColorHint="#130A0A"
+            app:counterEnabled="true"
+            app:counterMaxLength="25"
+            app:errorEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="25"
+                android:hint="E-mail (eg. you@example.com )"
+                android:imeOptions="actionNext"
+                android:textColor="#130A0A"
+                android:inputType="text"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:textSize="15sp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="193dp"
+            app:errorEnabled="true"
+            app:passwordToggleEnabled="true"
+            android:textColorHint="#130A0A">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password must have atleast 8 character"
+                android:textColor="#130A0A"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:textSize="15sp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp"
+            app:errorEnabled="true"
+            app:passwordToggleEnabled="true"
+            android:textColorHint="#130A0A">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtConfPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Confirm password must same as password"
+                android:textColor="#130A0A"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:textSize="15sp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+       <!-- <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="295dp"
+            android:textColorHint="#130A0A"
+            app:errorEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtMobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="25"
+                android:hint="Mobile"
+                android:imeOptions="actionNext"
+                android:textColor="#130A0A"
+                android:inputType="number"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:textSize="15sp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="340dp"
+            android:textColorHint="#130A0A"
+            app:errorEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtBirth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="25"
+                android:hint="Birth"
+                android:imeOptions="actionNext"
+                android:textColor="#130A0A"
+                android:inputType="number"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:textSize="15sp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="385dp"
+            android:textColorHint="#130A0A"
+            app:errorEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtCity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="25"
+                android:hint="City"
+                android:imeOptions="actionNext"
+                android:textColor="#130A0A"
+                android:inputType="text"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:textSize="15sp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="430dp"
+            android:textColorHint="#130A0A"
+            app:errorEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtPost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="25"
+                android:hint="Post"
+                android:imeOptions="actionNext"
+                android:textColor="#130A0A"
+                android:inputType="text"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:textSize="15sp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="470dp"
+            android:textColorHint="#130A0A"
+            app:errorEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtWork"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="25"
+                android:hint="Work"
+                android:imeOptions="actionNext"
+                android:textColor="#130A0A"
+                android:inputType="text"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:textSize="15sp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+-->
+        <Button
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/button"
+            android:text="register"
+            android:textColor="#130A0A"/>
+
+    </androidx.cardview.widget.CardView>
+
+   <!-- <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"
+        android:layout_marginTop="30dp"/>-->
+
+</LinearLayout>
